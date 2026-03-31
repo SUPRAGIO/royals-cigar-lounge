@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu | Royal's Cigar Lounge & Sports Bar | Columbus, TX — Fully Smash Food Truck</title>
+<meta name="description" content="Full food menu at Royal's Cigar Lounge & Sports Bar in Columbus, TX. Fully Smash burgers, wings, Chapli sandwiches, chicken & waffles, Deep Sea platters & more. Made fresh to order. Call (713) 210-9927.">
+<meta name="keywords" content="food menu Columbus TX, smash burgers Columbus TX, wings Columbus TX, food near me Columbus Texas, Fully Smash food truck, restaurant Columbus TX, Chapli burger, Deep South strips, best food Columbus TX, late night food Columbus TX">
+<link rel="canonical" href="https://royalscigarlounge.com/menu.html">
+<meta property="og:title" content="Menu | Royal's Cigar Lounge & Sports Bar">
+<meta property="og:description" content="Fully Smash burgers, wings, seafood platters & more. Made fresh at Royal's Cigar Lounge in Columbus, TX.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://royalscigarlounge.com/menu.html">
+<meta property="og:image" content="https://royalscigarlounge.com/logo.png">
+<meta name="robots" content="index, follow">
+<meta name="geo.region" content="US-TX">
+<meta name="geo.placename" content="Columbus, Texas">
+<meta name="theme-color" content="#D4A843">
+<link rel="icon" type="image/png" href="logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Outfit:wght@300;400;500;600;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --gold: #D4A843;
+    --gold-light: #E8C96A;
+    --gold-dark: #B8892E;
+    --black: #0A0A0A;
+    --black-card: #111111;
+    --black-soft: #1A1A1A;
+    --white: #F5F0E8;
+    --gray: #999;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; background: var(--black); }
+  body {
+    font-family: 'Outfit', sans-serif; background: var(--black);
+    color: var(--white); overflow-x: hidden; -webkit-font-smoothing: antialiased;
+  }
+
+  nav {
+    position: fixed; top: 0; left: 0; width: 100%; z-index: 1000;
+    padding: 0.8rem 2rem; display: flex; justify-content: space-between;
+    align-items: center; background: rgba(10,10,10,0.95);
+    backdrop-filter: blur(16px); border-bottom: 1px solid rgba(212,168,67,0.12);
+  }
+  .nav-logo-img { height: 150px; width: auto; }
+  .nav-links { display: flex; gap: 2rem; list-style: none; align-items: center; }
+  .nav-links a {
+    color: var(--white); text-decoration: none; font-size: 0.82rem;
+    font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; transition: color 0.3s;
+  }
+  .nav-links a:hover { color: var(--gold); }
+  .nav-cta {
+    background: var(--gold) !important; color: var(--black) !important;
+    padding: 0.5rem 1.3rem; border-radius: 2px; font-weight: 600 !important;
+  }
+  .nav-cta:hover { background: var(--gold-light) !important; }
+  .mobile-menu-btn {
+    display: none; background: none; border: none; cursor: pointer;
+    flex-direction: column; gap: 5px;
+  }
+  .mobile-menu-btn span { display: block; width: 24px; height: 2px; background: var(--gold); }
+
+  .menu-hero {
+    padding: 12rem 2rem 4rem; text-align: center;
+    background: var(--black-soft); border-bottom: 1px solid rgba(212,168,67,0.1);
+  }
+  .menu-hero-eyebrow {
+    font-family: 'Bebas Neue', sans-serif; font-size: 0.9rem;
+    letter-spacing: 0.4em; color: var(--gold); margin-bottom: 0.75rem;
+  }
+  .menu-hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-weight: 900; margin-bottom: 1rem;
+  }
+  .menu-hero h1 em { color: var(--gold); font-style: italic; }
+  .menu-hero p { color: var(--gray); font-weight: 300; font-size: 1rem; }
+
+  .menu-section { padding: 4rem 2rem; }
+  .menu-container { max-width: 1100px; margin: 0 auto; }
+  .menu-category { margin-bottom: 3.5rem; }
+  .menu-cat-title {
+    font-family: 'Bebas Neue', sans-serif; font-size: 1.5rem;
+    letter-spacing: 0.2em; color: var(--gold); margin-bottom: 1.2rem;
+    padding-bottom: 0.6rem; border-bottom: 1px solid rgba(212,168,67,0.2);
+  }
+  .menu-cat-note {
+    color: var(--gray); font-size: 0.85rem; font-weight: 300;
+    line-height: 1.6; margin-bottom: 1.2rem;
+  }
+  .menu-items-grid {
+    display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem;
+  }
+  .menu-item {
+    background: var(--black-card); border: 1px solid rgba(212,168,67,0.1);
+    padding: 1.5rem; transition: border-color 0.3s;
+  }
+  .menu-item:hover { border-color: rgba(212,168,67,0.25); }
+  .menu-item-header {
+    display: flex; justify-content: space-between; align-items: flex-start;
+    gap: 1rem; margin-bottom: 0.6rem;
+  }
+  .menu-item-header h4 {
+    font-family: 'Playfair Display', serif; font-size: 1.1rem;
+    font-weight: 700; line-height: 1.3;
+  }
+  .menu-prices {
+    font-family: 'Bebas Neue', sans-serif; font-size: 0.8rem;
+    color: var(--gold); letter-spacing: 0.05em; text-align: right;
+    white-space: nowrap; line-height: 1.5;
+  }
+  .menu-item p { color: var(--gray); font-size: 0.82rem; font-weight: 300; line-height: 1.5; }
+  .menu-new {
+    display: inline-block; background: var(--gold); color: var(--black);
+    font-family: 'Bebas Neue', sans-serif; font-size: 0.6rem;
+    letter-spacing: 0.1em; padding: 0.15rem 0.4rem; margin-left: 0.5rem;
+    vertical-align: middle;
+  }
+  .menu-items-row {
+    display: grid; grid-template-columns: repeat(2, 1fr); gap: 0;
+  }
+  .menu-item-sm {
+    display: flex; justify-content: space-between; padding: 0.65rem 1rem;
+    border-bottom: 1px solid rgba(212,168,67,0.06); font-size: 0.88rem;
+  }
+  .menu-item-sm span:last-child {
+    color: var(--gold); font-family: 'Bebas Neue', sans-serif;
+    font-size: 0.85rem; letter-spacing: 0.05em;
+  }
+  .menu-warning {
+    text-align: center; color: #666; font-size: 0.75rem;
+    font-weight: 300; margin-top: 2rem; font-style: italic;
+  }
+
+  .gold-divider { width: 100%; height: 1px; background: linear-gradient(90deg, transparent, var(--gold), transparent); opacity: 0.35; }
+
+  footer {
+    border-top: 1px solid rgba(212,168,67,0.1); padding: 3rem 2rem; text-align: center;
+  }
+  .footer-logo-img { height: 210px; width: auto; margin-bottom: 1.2rem; }
+  .footer-address { color: var(--gray); font-size: 0.85rem; font-weight: 300; line-height: 1.7; margin-bottom: 1.5rem; }
+  .footer-address a { color: var(--gold); text-decoration: none; }
+  .footer-legal { font-size: 0.75rem; color: #444; margin-top: 2rem; }
+
+  .reveal { opacity: 0; transform: translateY(30px); transition: opacity 0.7s ease, transform 0.7s ease; }
+  .reveal.visible { opacity: 1; transform: translateY(0); }
+
+  @media (max-width: 768px) {
+    .nav-links { display: none; }
+    .nav-links.active {
+      display: flex; flex-direction: column; position: absolute;
+      top: 100%; left: 0; width: 100%; background: rgba(10,10,10,0.98);
+      padding: 1.5rem 2rem; gap: 1.2rem; border-bottom: 1px solid rgba(212,168,67,0.15);
+    }
+    .mobile-menu-btn { display: flex; }
+    .menu-items-grid { grid-template-columns: 1fr; }
+    .menu-items-row { grid-template-columns: 1fr; }
+    .menu-item-header { flex-direction: column; gap: 0.3rem; }
+    .menu-prices { text-align: left; }
+    .menu-hero { padding: 10rem 1.5rem 3rem; }
+  }
+</style>
+</head>
+
+<body>
+
+<nav>
+  <a href="index.html"><img src="logo.png" alt="Royal's Cigar Lounge & Sports Bar" class="nav-logo-img"></a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html#events">Nights</a></li>
+    <li><a href="menu.html" style="color:var(--gold);">Menu</a></li>
+    <li><a href="index.html#about">About</a></li>
+    <li><a href="index.html#hours">Hours</a></li>
+    <li><a href="index.html#signup" class="nav-cta">Sign Up</a></li>
+  </ul>
+  <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<div class="menu-hero">
+  <p class="menu-hero-eyebrow">MADE FRESH. EVERY ORDER.</p>
+  <h1>The <em>Menu</em></h1>
+  <p>All orders are made fresh and take around 15 minutes to prepare.</p>
+</div>
+
+<section class="menu-section">
+  <div class="menu-container">
+
+    <div class="menu-category reveal">
+      <h3 class="menu-cat-title">Meals</h3>
+      <div class="menu-items-grid">
+        <div class="menu-item">
+          <div class="menu-item-header">
+            <h4>Fully Smash</h4>
+            <div class="menu-prices">Single $9.99 / Meal $12.99<br>Double $12.99 / Meal $16.99</div>
+          </div>
+          <p>100% beef with Smash Sauce, lettuce, tomatoes, pickles, and sauteed onions on a bun or Texas Toast.</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-header">
+            <h4>Chapli Smash Beef</h4>
+            <div class="menu-prices">Single $10.99 / Meal $13.99<br>Double $13.99 / Meal $17.99</div>
+          </div>
+          <p>100% beef Chapli patty with Chapli Sauce, lettuce, tomatoes, pickles, and sauteed onions on a bun or Texas Toast.</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-header">
+            <h4>Chapli Smash Chicken</h4>
+            <div class="menu-prices">Single $10.99 / Meal $13.99<br>Double $13.99 / Meal $17.99</div>
+          </div>
+          <p>100% chicken Chapli patty with Chapli Sauce, lettuce, tomatoes, pickles, and sauteed onions on a bun or Texas Toast.</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-header">
+            <h4>Fully Fried Chick</h4>
+            <div class="menu-prices">Single $9.99 / Meal $12.99</div>
+          </div>
+          <p>100% fried chicken breast with Cajun Garlic Sauce and pickles on a bun or Texas Toast.</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-header">
+            <h4>Deep South Strip</h4>
+            <div class="menu-prices">Basket $12.99 / Add a Strip $2.75</div>
+          </div>
+          <p>Basket of 3 Deep South Strips, Texas Toast, fries, and Cajun Garlic Sauce.</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-header">
+            <h4>Fully Loaded Fries</h4>
+            <div class="menu-prices">Basket $13.99</div>
+          </div>
+          <p>Basket of fries, choose your patty or 3 D.S. Strips, with 2 sauces and shredded cheese.</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-header">
+            <h4>Fully Loaded Nacho</h4>
+            <div class="menu-prices">Basket $12.99</div>
+          </div>
+          <p>Basket of chips, nacho cheese, and your choice of beef or fried chicken strips.</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-header">
+            <h4>Chicken & Waffles<span class="menu-new">NEW</span></h4>
+            <div class="menu-prices">Basket $9.99</div>
+          </div>
+          <p>Buttered savory waffle, house syrup, and 2 D.S. Strips.</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-header">
+            <h4>Deep Sea Shrimp Poboy<span class="menu-new">NEW</span></h4>
+            <div class="menu-prices">Single $8.99 / Meal $10.99</div>
+          </div>
+          <p>Cajun fried shrimp, lettuce, tomatoes, tartar sauce, and Cajun Garlic Sauce, on French bread.</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-header">
+            <h4>Fully Fried Fish<span class="menu-new">NEW</span></h4>
+            <div class="menu-prices">Single $8.99 / Meal $10.99</div>
+          </div>
+          <p>Cajun fried or grilled catfish, lettuce, tomatoes, and tartar sauce, on a bun or Texas Toast.</p>
+        </div>
+        <div class="menu-item" style="grid-column: 1 / -1;">
+          <div class="menu-item-header">
+            <h4>Deep Sea Platter<span class="menu-new">NEW</span></h4>
+            <div class="menu-prices">Full $17.99 / Half $9.99</div>
+          </div>
+          <p>Full: 2 Pc Fried Catfish, 6 Pc Deep Sea Shrimp, 4 Pc Smash Batter, fries, tartar sauce, and cocktail sauce. Half: 1 Pc Fried Catfish, 3 Pc Deep Sea Shrimp, 2 Pc Smash Batter, fries, tartar sauce, and cocktail sauce.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-category reveal">
+      <h3 class="menu-cat-title">Wings</h3>
+      <p class="menu-cat-note">Comes with Ranch or Bleu Cheese. Flavors: Buffalo, Barbecue, Garlic Parmesan, Hot Garlic, Lemon Pepper, Hot Lemon Pepper, Barbecue Garlic Parmesan.</p>
+      <div class="menu-items-row">
+        <div class="menu-item-sm"><span>6 Pcs</span><span>$9.99</span></div>
+        <div class="menu-item-sm"><span>8 Pcs</span><span>$12.99</span></div>
+        <div class="menu-item-sm"><span>10 Pcs</span><span>$16.99</span></div>
+        <div class="menu-item-sm"><span>Add a Wing</span><span>$1.99</span></div>
+      </div>
+    </div>
+
+    <div class="menu-category reveal">
+      <h3 class="menu-cat-title">Sides</h3>
+      <div class="menu-items-row">
+        <div class="menu-item-sm"><span>Cajun Breaded Pickles</span><span>$4.45</span></div>
+        <div class="menu-item-sm"><span>Breaded Mushrooms</span><span>$4.45</span></div>
+        <div class="menu-item-sm"><span>Onion Rings</span><span>$4.45</span></div>
+        <div class="menu-item-sm"><span>Basket of Fries</span><span>$4.45</span></div>
+        <div class="menu-item-sm"><span>Eggrolls (3)</span><span>$4.45</span></div>
+        <div class="menu-item-sm"><span>Mac & Cheese Bites</span><span>$4.45</span></div>
+        <div class="menu-item-sm"><span>Mozzarella Sticks (4)</span><span>$4.45</span></div>
+        <div class="menu-item-sm"><span>Cream Cheese Jalapenos (5)</span><span>$4.45</span></div>
+      </div>
+    </div>
+
+    <div class="menu-category reveal">
+      <h3 class="menu-cat-title">Add-Ons</h3>
+      <div class="menu-items-row">
+        <div class="menu-item-sm"><span>Smash Patty</span><span>$4.00</span></div>
+        <div class="menu-item-sm"><span>Beef Chapli Patty</span><span>$5.00</span></div>
+        <div class="menu-item-sm"><span>Chicken Chapli Patty</span><span>$5.00</span></div>
+        <div class="menu-item-sm"><span>Deep South Strip</span><span>$2.75</span></div>
+        <div class="menu-item-sm"><span>Fried Catfish (1 Pc)</span><span>$2.99</span></div>
+        <div class="menu-item-sm"><span>Jalapenos</span><span>$1.00</span></div>
+        <div class="menu-item-sm"><span>Banana Peppers</span><span>$1.00</span></div>
+        <div class="menu-item-sm"><span>Cheese</span><span>$1.00</span></div>
+        <div class="menu-item-sm"><span>Shredded Cheese</span><span>$1.50</span></div>
+        <div class="menu-item-sm"><span>Smash Batter (5 Pcs)</span><span>$2.99</span></div>
+        <div class="menu-item-sm"><span>Ranch or Bleu Cheese</span><span>$1.00</span></div>
+        <div class="menu-item-sm"><span>Chapli Sauce</span><span>$1.00</span></div>
+        <div class="menu-item-sm"><span>Cajun Garlic Sauce</span><span>$1.00</span></div>
+        <div class="menu-item-sm"><span>Smash Sauce</span><span>$1.00</span></div>
+        <div class="menu-item-sm"><span>Tartar Sauce</span><span>$1.00</span></div>
+        <div class="menu-item-sm"><span>Cocktail</span><span>$1.00</span></div>
+        <div class="menu-item-sm"><span>House Syrup</span><span>$1.75</span></div>
+        <div class="menu-item-sm"><span>Beef Bacon (2 Pcs)</span><span>$1.85</span></div>
+        <div class="menu-item-sm"><span>Fried Shrimp (3 Pcs)</span><span>$2.99</span></div>
+      </div>
+    </div>
+
+    <p class="menu-warning reveal">May contain fish and/or shellfish (shrimp, catfish). Ask for info please.</p>
+
+  </div>
+</section>
+
+
+<section style="padding: 4rem 2rem; text-align: center; position: relative; overflow: hidden;">
+  <div style="position: absolute; inset: 0; background: radial-gradient(ellipse at center, rgba(212,168,67,0.05) 0%, transparent 70%);"></div>
+  <h2 class="reveal" style="font-family: 'Playfair Display', serif; font-size: clamp(2rem, 4vw, 3rem); font-weight: 900; margin-bottom: 1rem; position: relative;">Ready to <em style="color: var(--gold); font-style: italic;">Order?</em></h2>
+  <p class="reveal" style="color: var(--gray); font-weight: 300; margin-bottom: 2rem; position: relative;">Call ahead and have it ready when you walk in.</p>
+  <div class="reveal" style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; position: relative;">
+    <a href="tel:7132109927" style="display: inline-block; background: var(--gold); color: var(--black); padding: 0.9rem 2.2rem; font-family: 'Bebas Neue', sans-serif; font-size: 1.05rem; letter-spacing: 0.15em; text-decoration: none; border: none; cursor: pointer; transition: all 0.3s;">Call (713) 210-9927</a>
+  </div>
+</section>
+
+<div class="gold-divider"></div>
+
+<footer>
+  <img src="logo.png" alt="Royal's Cigar Lounge & Sports Bar" class="footer-logo-img">
+  <div class="footer-address">
+    <a href="https://maps.google.com/?q=1416+Walnut+St+Columbus+TX+78934" target="_blank" rel="noopener">1416 Walnut St, Columbus, TX 78934</a><br>
+    <a href="tel:7132109927">(713) 210-9927</a><br><br>
+    Live Music · Karaoke · Dancing · Premium Cigars · Full Bar · Live Sports
+  </div>
+  <div class="footer-legal">&copy; 2026 Royal's Cigar Lounge & Sports Bar. All rights reserved.</div>
+</footer>
+
+<script>
+  const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+  const navLinks = document.getElementById('navLinks');
+  mobileMenuBtn.addEventListener('click', () => navLinks.classList.toggle('active'));
+  navLinks.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => navLinks.classList.remove('active'));
+  });
+  const revealElements = document.querySelectorAll('.reveal');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry, i) => {
+      if (entry.isIntersecting) {
+        setTimeout(() => entry.target.classList.add('visible'), i * 60);
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+  revealElements.forEach(el => observer.observe(el));
+</script>
+
+</body>
+</html>
